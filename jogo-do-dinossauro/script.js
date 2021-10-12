@@ -70,7 +70,7 @@ function createCactus(){
         //verificar colisão    
         }else if(cactusPosition > 0 && cactusPosition < 60 && dinoPosition < 60){
             clearInterval(cactusSpeed);
-            document.body.innerHTML = '<h1 class="game-over">Fim de Jogo</h1><br><h2 class="game-over">Press Enter to Continue</h2>';
+            document.body.innerHTML = '<h1 class="game-over">Fim de Jogo</h1><br><h2 class="game-over">Pressione Enter para Continuar</h2>';
             gameover = true;
 
         //movimento do cactus    
